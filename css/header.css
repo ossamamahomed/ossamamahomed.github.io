@@ -1,0 +1,207 @@
+body{
+    padding-left: 15rem;
+    background-color: white;
+}
+
+body.escurecer::before{
+    content: "";
+    position: fixed;
+    height: 100vh;
+    width: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0; 
+}
+
+.header-desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(30, 49, 91);
+    padding: 1rem;
+    width: 15rem;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header-desktop .logo{
+    color: rgb(218, 143, 111);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.04rem;
+    margin-bottom: 5rem;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: 0rem .1rem rgba(226, 131, 43, 0.283);
+}
+
+.header-desktop ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.header-desktop ul li{
+    cursor: pointer;
+    padding: .2rem;
+    transition: 0.15s;
+    list-style: none;
+    border-radius: .5rem;
+    padding: .3rem;
+}
+
+.header-desktop ul li:hover{
+    background-color: rgba(255, 0, 212, 0.164);
+}
+
+.header-desktop ul a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.941);
+    text-decoration: none;
+    transition:  0.15s;
+    letter-spacing: .09rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-desktop ul i{
+    margin-right: 1.5rem;
+    color: rgb(255, 114, 14);
+    
+}
+
+.header-desktop ul a:hover{
+    color: rgb(201, 201, 201);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    margin-left: -1rem;
+}
+
+.icons i{
+    cursor: pointer;
+     color: rgb(180, 180, 180);
+}
+
+.icons i:hover{
+    color: rgb(18, 198, 138);
+    transition: 0.55s;
+    transform: scale(1.2);
+}
+
+/*---Header-Mobile---*/
+
+.header-mobile{
+    background-color: rgb(239, 250, 250);
+    padding: 1.2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  
+
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-mobile .logo{
+    color: rgb(231, 124, 62);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.03rem;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: 0rem .1rem rgba(226, 131, 43, 0.283);
+}
+
+.nav{
+    position: absolute;
+    top: 62px;
+    right: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(237, 245, 248);
+    padding: 1rem 1rem 0  1rem;
+
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav.open {
+    display: flex;
+}
+
+.nav li{
+    list-style: none;
+    padding: 1.9rem .5rem;
+    margin-left: 1.2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 243, 248);
+}
+
+.nav i{
+    margin-right: 1.5rem;
+    color: rgb(230, 135, 10);
+    font-size: 1.5rem;
+}
+
+.icons-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3.3rem;
+    bottom: 6rem;
+}
+
+.icons-mobile i{
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+
+/*--------Responsavidade--------*/
+@media (max-width: 780px){
+
+    .header-mobile{
+        display: flex;
+        
+    }
+
+    .header-desktop{
+        display: none;
+    }
+
+    body{
+        padding-left: 0;
+        padding-top: 63px;
+    }
+
+}

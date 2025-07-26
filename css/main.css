@@ -1,0 +1,503 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+}
+
+/*----Secao Home----*/
+.home{  
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.home .title{
+    padding-top: 2rem;
+    color: rgb(158, 158, 158);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(201, 200, 200);
+    cursor: pointer;
+}
+
+.box-home{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.img-home{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home .text{
+    padding: .5rem;
+}
+
+.home .text h1{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.3rem;
+    color: rgb(15, 138, 214);
+}
+
+.home strong{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+    color: rgb(242, 128, 46);
+    cursor: pointer;
+}
+
+.home .text p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(84, 84, 84);
+}
+
+.home .text span{
+    color: rgb(157, 132, 248);
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.btn{
+    display: flex;
+    padding-top: 3rem;
+    gap: 2rem;  
+}
+
+.btn button{
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: .2rem -.2rem  rgba(159, 157, 157, 0.279);
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn button:hover{
+    color: rgb(138, 237, 240);
+    
+}
+
+.btn button:first-of-type{
+   background-color: rgb(52, 118, 249);
+}
+
+
+
+/*---secao Experience---*/
+.experience{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.experience .title{
+    background-color: rgb(33, 110, 205);
+    color: rgb(255, 255, 255);
+    max-width: 950px;
+    width: 90%;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    font-style: normal;
+    border-radius: .5rem;
+    border: 1px solid rgb(161, 228, 159);
+}
+
+.container-experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.experience-box{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid rgba(156, 221, 231, 0.772);
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: .3rem .3rem 0.3rem   rgba(155, 155, 155, 0.196);
+    transition: .9s;
+}
+
+.experience-box:hover{
+     transform: scale(1.01);
+     box-shadow: .3rem -.3rem 0.3rem   rgba(155, 155, 155, 0.525);
+}
+
+.experience-box p{
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .03rem;
+}
+
+#box1{
+   
+}
+
+#box2{
+   
+}
+
+#box3{
+    max-width: 600px;
+    width: 100%;
+}
+
+.data{
+    color: rgb(128, 127, 127);
+    font-weight: 600 !important;
+}
+.universidade{
+    color: rgb(3, 147, 41);
+    font-size: 1rem;
+}
+.curso{
+    color: rgb(87, 87, 87);
+    font-weight: 700 !important;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(216, 216, 216);
+}
+
+.artigo{
+    color: rgb(0, 0, 0);
+    font-weight: 500 !important;
+    font-size: .9rem;
+    letter-spacing: .03rem;
+
+}
+
+.experience-box h2{
+    padding: 1rem;
+    text-align: center;
+    color: rgb(18, 136, 232);
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.p-color{
+    color: rgb(113, 113, 112);
+}
+
+.experience-box .html, .css, .js{
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*--- Secao Service  ---*/
+.service{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+.service h1{
+    background-color: rgb(33, 110, 205);
+    color: rgb(255, 255, 255);
+    max-width: 950px;
+    width: 90%;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    border-radius: .5rem;
+    border: 1px solid rgb(161, 228, 159);
+}
+
+.service .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+} 
+
+.service .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid rgb(106, 188, 255);
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: .3rem .3rem 0.3rem   rgb(225, 228, 228);
+    transition: 0.6s;
+}
+
+.service .box:hover{
+    transform: scale(1.03);
+     box-shadow: .3rem .3rem 0.3rem   rgba(155, 155, 155, 0.525);
+}
+
+.service h2{
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: rgb(32, 107, 219);
+    text-align: center;
+}
+
+.service i, .service p{
+    color: rgb(0, 145, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+ 
+
+
+/*---Secao Project---*/
+.project{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.project h1{
+    background-color: rgb(33, 110, 205);
+    color: rgb(255, 255, 255);
+    max-width: 950px;
+    width: 90%;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    border-radius: .5rem;
+    border: 1px solid rgb(161, 228, 159);
+}
+
+.project .projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.projeto .box{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid rgb(175, 224, 232);
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: .3rem .3rem 0.3rem   rgba(155, 155, 155, 0.196);
+}
+
+.projeto .box {
+    font-weight: 400;    
+}
+
+/*--------Contact--------*/
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    padding-bottom: 5rem;
+}
+
+.contact h1{
+    background-color: rgb(33, 110, 205);
+    color: rgb(255, 255, 255);
+    max-width: 950px;
+    width: 90%;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    border-radius: .5rem;
+    border: 1px solid rgb(161, 228, 159);
+}
+
+.contact .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contacto h3{
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.contacto h4{
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+
+.contacto p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 2rem;
+    font-style: normal;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(255, 216, 192);
+    border-radius: .5rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 450px;
+    width: 100%;
+}
+
+
+
+form h3{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+form label{
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+form input, form textarea{
+    border: 1px solid rgb(225, 225, 225);
+    padding: .6rem .5rem;
+    margin-bottom: .6rem;
+    border-radius: .5rem;
+    font-size: 12px;
+}
+
+form textarea{
+    height: 6rem;
+}
+
+.btn-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button{
+    background-color: rgb(255, 152, 67);
+    width: 100%;
+    padding: .5rem 0;
+    border-radius: .5rem;
+    font-weight: 700;
+    color: white;
+}
+
+form button:hover{
+    color: rgb(98, 255, 153);
+}
+
+.btn-form span{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(5, 189, 70);
+    display: none;
+}
+
+@media (max-width:600px){
+    .contact .container{
+        flex-wrap: wrap;
+    }
+}
+
+/*---- Footer ------*/
+footer{
+    background-color: rgb(30, 49, 91);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+footer .icons-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icons-footer i{
+    color: rgb(169, 212, 255);
+}
+
+footer p{
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+
+
+
+
